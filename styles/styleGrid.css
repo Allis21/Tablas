@@ -1,0 +1,31 @@
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    
+}
+
+.columna{
+    background-color: #fca311;
+    border: 1px solid #14213d;
+    color: #14213d;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px;
+    margin: 10px;
+    padding: 10px;
+}
